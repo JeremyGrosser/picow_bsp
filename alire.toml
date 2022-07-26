@@ -1,0 +1,14 @@
+name = "picow_bsp"
+description = "Raspberry Pi Pico W board support"
+version = "0.1.0-dev"
+
+authors = ["Jeremy Grosser"]
+maintainers = ["Jeremy Grosser <jeremy@synack.me>"]
+maintainers-logins = ["JeremyGrosser"]
+
+[[depends-on]]
+rp2040_hal = "^1.6.0"
+cyw43 = "~0.1.0-dev"
+
+[[pins]]
+cyw43 = { url='https://github.com/JeremyGrosser/cyw43.git' }
